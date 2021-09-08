@@ -35,7 +35,12 @@ if __name__ == '__main__':
     # Add color to your shape by adding .begin_fill() before drawing the circle
     # and .end_fill() below
     joe.begin_fill()
-    joe.
+    joe.left(120)
+    joe.forward(100)
+    joe.left(120)
+    joe.forward(100)
+    joe.left(120)
+    joe.forward(100)
     joe.end_fill()
     # Draw 3 more shapes with different fill colors!
 
