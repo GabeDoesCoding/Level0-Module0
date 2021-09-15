@@ -12,7 +12,7 @@ if __name__ == '__main__':
     # Set your turtle's speed using .speed(2)
     joe.speed(2)
     # Set your turtle's color using .color('green') and .pencolor('blue')
-    joe.color('blue')
+    joe.color('green')
     # Move your turtle forward using .forward(100)
     # TEST    Did your turtle move forward?
 

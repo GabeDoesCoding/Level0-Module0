@@ -14,9 +14,9 @@ if __name__ == '__main__':
     window.bgcolor('white')
     
     # Make a new turtle
-    
+    joe=turtle.Turtle
     # This code sets our shape to a turtle
-    
+    joe.shape(turtle)
     # Set your turtle's speed (0=fastest, 1=slowest, 10=faster)
     
     # Set your turtle's color using .color('green')
