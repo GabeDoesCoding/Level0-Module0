@@ -57,7 +57,7 @@ if __name__ == '__main__':
         # Call the turtle .end_fill() method
         joe.end_fill()
     # Hide your turtle so you can see the pattern.
-        
+        joe.hideturtle()
     # TEST   Run the program. Check that your shape is the same as the first
     #        picture in the recipe. This is one arm of the ninja star.
 
