@@ -8,9 +8,12 @@ if __name__ == '__main__':
     # Hide the window using the window's .withdraw() method
     window.withdraw()
     # 1. Ask the user if they know how to write code.
-
+    Code = simpledialog.askstring(title='Coding',prompt="Do you know how to write code?" )
     # 2. If they say "yes", tell them they will rule the world in a message box pop-up.
-
+    if Code == "yes" or Code == "Yes":
+        messagebox.showinfo(title='Coding', message="You will rule the world!")
     # 3. Otherwise, tell them to sign up for classes at The League in an error box pop-up.
-    
+    else:
+        messagebox.showinfo(title='Coding', message="You should sign up for classes at The League!")
     # Run the window's .mainloop() method
+    window.mainloop()
