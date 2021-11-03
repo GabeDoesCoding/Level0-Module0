@@ -45,10 +45,11 @@ def key_pressed():
 
     # 10. Increment the x and y variables of the 2 eye variables by 5:
     #     left_eye.x += 5
-    
+    left_eye.x += 5
+    right_eye.x += 5
     # 11. Call the .draw() method for both eye variables.
-
-
+    left_eye.draw()
+    right_eye.draw()
 if __name__ == '__main__':
     window = turtle.Screen()
     
@@ -82,8 +83,8 @@ if __name__ == '__main__':
     #    and initialize them:
     #    left_eye  = Eye(eye=my_turtle, x=-34, y=11, radius=30)
     #    right_eye = Eye(eye=my_turtle, x=40, y=-5, radius=30)
-    left_eye = Eye(eye=joe, x=47, y=68)
-    right_eye = Eye(eye=joe, x=1, y=45)
+    left_eye = Eye(eye=joe, x=-50, y=54)
+    right_eye = Eye(eye=joe, x=2, y=45)
     # 9. Call the .draw() method on BOTH eye variables
     left_eye.draw()
     right_eye.draw()
